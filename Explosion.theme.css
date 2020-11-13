@@ -24,6 +24,20 @@
   --backgroundCode: rgba(0,0,0,.5);
   --backgroundName: rgba(0,0,0,.5);
 
-  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;  
+  --cfix-opacity: 1;
+}
+
+.base-3dtUhz .sidebar-2K8pFh {
+    background-color: rgba(00,00,00,var(--cfix-opacity));
+}
+
+.sidebar-2K8pFh .container-3w7J-x {
+    background-color: transparent;
+}
+
+.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
+.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
+    background-color: rgba(0,0,0,calc(var(--cfix-opacity)/2));
 }
