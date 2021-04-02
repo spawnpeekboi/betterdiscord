@@ -1,9 +1,15 @@
-//META{"name":"MEGUMIN","description":"A simple EXPLOSION","author":"squirrel","version":"1.1"}*//
+/**
+* @name MEGUMIN
+* @description A simple EXPLOSION
+* @author bylat
+* @version 1.1.0
+*/
 
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url(http://allfont.net/allfont.css?fonts=agency-fb);
 @import url(http://allfont.net/allfont.css?fonts=agency-fb-bold);
-@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+
 
 :root {
   --themeColor1: #f700ff;
@@ -26,7 +32,7 @@
 
   --HSL-server-icon-size: 40px;
   --HSL-server-spacing: 10px;  
-  --cfix-opacity: 1;
+  --cfix-opacity: .9;
 }
 
 .base-3dtUhz .sidebar-2K8pFh {
@@ -41,3 +47,8 @@
 .sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
     background-color: rgba(0,0,0,calc(var(--cfix-opacity)/2));
 }
+
+.wrapper-3NnKdC,
+.wrapper-3NnKdC .scroller-1Bvpku,
+.folder-1hbNCn, 
+.expandedFolderBackground-1cujaW {background-color:transparent!important}
